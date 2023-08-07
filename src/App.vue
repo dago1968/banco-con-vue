@@ -1,15 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Banco Reactivo con VueJs"/>
+  <Titulo message="Por: Dagoberto Hernández García" />
+  <Cuenta />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import Titulo from './components/Titulo.vue';
+import Cuenta from './components/Cuenta.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld, 
+    Titulo,
+    Cuenta
   }
 }
 </script>
