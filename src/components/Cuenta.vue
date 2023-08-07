@@ -13,7 +13,7 @@
     {{ index + 1}} - {{ servicio }}
   </div>
   <AccionSaldo 
-    texto="Adumentar Saldo" 
+    texto="Aumentar Saldo" 
     @accion="aumentar"
   />
   <AccionSaldo 
